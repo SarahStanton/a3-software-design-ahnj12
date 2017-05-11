@@ -3,9 +3,9 @@
 This is a guide on how to setup and use BubbleChart.js. The purpose of BubbleChart.js is to quickly create bubble tree maps with hierarchical data.
 
 ##### Table of Contents
-[Initial Setup](#initial-setup)
-[Prepping Data](#prepping-data)
-[API Reference](#api-reference)
+- [Initial Setup](#initial-setup)
+- [Prepping Data](#prepping-data)
+- [API Reference](#api-reference)
 
 ## Initial Setup
 ---
