@@ -28,7 +28,7 @@ This is a guide on how to setup and use BubbleChart.js. The purpose of BubbleCha
 *Any method used without supplying a parameter will return the current value of the property*
 
 ##### .width(value)
-value: *integer*
+value: *integer* <br>
 Changes the width of the svg containing the chart to the given value
 
 ##### .height(value)
@@ -36,39 +36,39 @@ value: *integer* <br>
 Changes the height of the svg containing the chart to the given value
 
 ##### .colorValues(values)
-values: *array*
+values: *array* <br>
 Works together with the .colorBy() method. The values is an array that contains the values of the key nested in the data preperation. Sets the colors for each of the values in the array.
 
 ##### .colorBy(value)
-value: *string*
+value: *string* <br>
 Works together with the .colorValues() method. The value is the property name of the values used in the .colorValues() method
 
 ##### .title(value)
-value: *string*
+value: *string* <br>
 Sets the title of the chart to the given value.
 
 ##### .titleSize(value)
-value: *integer*
+value: *integer* <br>
 Sets the font size of the title to the given value.
 
 ##### .opacity(value)
-value: *integer between 0 and 1*
+value: *integer between 0 and 1* <br>
 Sets the opacity of the bubbles to the given value.
 
 ##### .margins(values)
-value: *Javascript Object*
+value: *Javascript Object* <br>
 All the different sides of the margin can be set by including the corresponding field (top, bottom, left, right) in the object with the values being numbers. If any of the fields are not included, it will use the defaults or previously set margins.
 
 ##### .showLegend(value)
-value: *boolean*
+value: *boolean* <br>
 Shows the legend for the chart if the value is true, otherwise hides it.
 
 ##### .bubbleScale(value)
-value: *double*
+value: *double* <br>
 Multiplies the radius of each of the bubbles by the given value
 
 ##### .bubblePadding(value)
-value: *integer/double*
+value: *integer/double* <br>
 Sets the padding between the bubbles to the given value.
 
 
