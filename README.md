@@ -22,7 +22,7 @@ This is a guide on how to setup and use BubbleChart.js. The purpose of BubbleCha
 3. Using the returned root, [sum](https://github.com/d3/d3-hierarchy/blob/master/README.md#node_sum) the values of the property you want to show up in the chart
 4. The root can now be used as the datum for the data-join
 
-## API Reference
+## Api Reference
 ---
 
 *Any method used without supplying a parameter will return the current value of the property*
