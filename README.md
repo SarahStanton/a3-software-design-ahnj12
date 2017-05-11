@@ -18,7 +18,7 @@ This is a guide on how to setup and use BubbleChart.js. The purpose of BubbleCha
 ## Prepping Data
 ---
 1. Load in your data file and [nest](https://github.com/d3/d3-collection/blob/master/README.md#nest) the data. The key for the nest will be the property the data will be grouped by.
-2. Transform the nested data into hierarchical data using [d3.hierarchy](https://github.com/d3/d3-hierarchy/blob/master/README.md#hierarchy). This will return you the root of the hier
+2. Transform the nested data into hierarchical data using [d3.hierarchy](https://github.com/d3/d3-hierarchy/blob/master/README.md#hierarchy). This will return you the root of the hierarchical data
 3. Using the returned root, [sum](https://github.com/d3/d3-hierarchy/blob/master/README.md#node_sum) the values of the property you want to show up in the chart
 4. The root can now be used as the datum for the data-join
 
