@@ -13,6 +13,7 @@ This is a guide on how to setup and use BubbleChart.js. The purpose of BubbleCha
 2. Reference the BubbleChart.js in the HTML.
 3. Putting BubbleChart() in your javascript with initialize the bubble tree map.
 4. BubbleChart() will return a function for you to use to build the chart.
+5. Various methods can be called on BubbleChart() to change its characteristics
 
 ## Prepping Data
 ---
