@@ -32,7 +32,7 @@ value: *integer*
 Changes the width of the svg containing the chart to the given value
 
 ##### .height(value)
-value: *integer*
+value: *integer* <br>
 Changes the height of the svg containing the chart to the given value
 
 ##### .colorValues(values)
